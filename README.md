@@ -10,7 +10,7 @@ This browser app features dynamically updated HTML and CSS powered by JavaScript
 ```
 
 ## **Mock Up:**
-![Image of Project](./public/pro3.png)
+![Image of Project](./public/mockup.png)
 
 ## **Steps for future development:**
 ```
