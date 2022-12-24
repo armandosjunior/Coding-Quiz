@@ -9,49 +9,57 @@
 
 <body>
     <!-- First Page -->
-    <div>
-        <button>Start</button>
+    <div class="first-page">
+        <div class= "start-header">POP Quiz</div>
+        <button class="start-button">Start</button>
     </div>
 
 
-    <!-- Rules of Quiz -->
-    <div>
-        <h1>Time for a POP-Quiz!</h1>
-        <p>Try and complete the following questions before timer is complete. The count down begins after pressing continue.</p>
+    <!-- Rules Page -->
+    <div class="second-page">
+        <div class="rules-header">
+            <h1>Time for a POP-Quiz!</h1>
+            <p>Try and complete the following questions before timer is complete. The count down begins after pressing continue.</p>
+        </div>
+        <div class="rules-buttons">
+            <button class="exit-button">Exit</button>
+            <button class="continue-button">Continue</button>
+        </div>
     </div>
-    <div>
-        <button>Exit</button>
-        <button>Continue</button>
-    </div>
+    
 
 
     <!-- QUIZ! QUIZ! QUIZ! -->
-    <div>
-        <h3>POP-Quiz</h3>
-        <div>Time Left:</div>
-        <div>30</div>    
+    <div class="third-page">
+        <div class="quiz-header">
+            <h3>POP-Quiz</h3>
+            <h3>Time Left:
+                <p id="timer"></p>
+            </h3>   
+        </div>
+        <div class="quiz-questions">
+            <h5 class="question-d">Question: </h5>
+            <p class="options"></p>
+        <div>
+        <div class="quiz-buttons">
+            <button class="next-button">Next</button>
+        </div>
     </div>
-    <div>
-        <h5>Question: </h5>
-        <p>1.</p>
-        <p>2.</p>
-        <p>3.</p>
-        <p>4.</p>
-    <div>
-    <div>
-        <button>Next</button>
-    </div>
+    
     
     
     <!-- Results -->
-    <div>
-        <h3>Complete!</h3>
-        <p></p>
+    <div class="forth-page">
+        <div class="results-header">
+            <h3>Complete!</h3>
+            <p></p>
+        </div>
+        <div class="results-buttons">
+            <button>Restart</button>
+            <button>Quit</button>
+        </div>
     </div>
-    <div>
-        <button>Restart</button>
-        <button>Quit</button>
-    </div>
+    
 
 
     
